@@ -1,0 +1,40 @@
+.page-section {
+    padding: 1.2rem 0;
+    
+    @mixin atMedium {
+    padding: 4.5rem 0;
+    }
+    
+    &--no-b-padding-until-medium {
+        padding-bottom: 0;
+        
+        @mixin atMedium {
+            padding-bottom: 4.5rem;
+        }
+    }
+    
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+        
+        @mixin atLarge {
+            padding-bottom: 4.5rem;
+        }
+    }
+    
+    &--green {
+        padding: 0;
+        position: relative;
+        background: url("../../assets/images/background-packet.png") top center no-repeat;
+            background-size: cover;
+        
+        @mixin atLarge{
+            background: url("../../assets/images/background-packet-large.png") top center no-repeat;
+            background-size: cover;
+        }
+        
+    }
+    
+    &--green-background {
+        background-color: #61EA53;
+    }
+}

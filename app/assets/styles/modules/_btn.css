@@ -1,0 +1,31 @@
+
+.btn{
+    background-color: rgb(80, 183, 68);
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    border-radius: 25px;
+    
+    &--green{
+        background-color: #50B744; 
+        border-radius: 25px;
+        margin-top: 20px;
+        
+        &:hover {
+            opacity: .7;
+        }
+    }
+    
+    &--large{
+        padding: 1.1rem 1.9rem;
+        
+         @mixin atSmall{
+            font-size: 1.25rem;
+        }
+    }
+    
+    &--hover:hover {
+        opacity: .7;
+    }
+} 

@@ -1,0 +1,24 @@
+.testimonial {
+    
+    margin:0 auto 98px auto;
+    
+    &--img {
+        transition: 1s ease-out
+    }
+    
+
+    &--img:hover {
+        transform: scale(1.05);
+        transition: 1s ease-out;
+}
+}
+    
+    @mixin atLarge {
+        margin-bottom: 0px;
+    }
+    
+    &--last {
+        margin-bottom: 0;
+    }
+
+   

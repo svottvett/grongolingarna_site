@@ -1,0 +1,30 @@
+.image {
+    
+    
+    &--info-logo {
+        transform: rotate(-10deg);
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 30px;
+        
+        @mixin atMedium {
+            width: 80%;
+        
+            
+        }
+    }
+    
+    &--info-logo-left {
+        @mixin atMedium {
+            margin-left: 0;    
+        }
+    }
+    
+    &--info-logo-right{
+        @mixin atMedium {
+            margin-right: 0;
+        }
+    }
+}
