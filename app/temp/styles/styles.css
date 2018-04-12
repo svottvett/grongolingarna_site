@@ -1015,7 +1015,7 @@ Instead edit gulp/templates/sprite.css*/
 }
         
      .site-header--dark {
-         background-color: rgba(80, 183, 68, .85);
+         background-color: rgba(80, 183, 68, .85); 
         }
     }
 
