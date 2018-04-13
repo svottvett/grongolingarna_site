@@ -1525,3 +1525,59 @@ overflow: hidden;
 .about {
    
 }
+
+.form-subscribe {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+@media(min-width:1010px){
+
+.form-subscribe {
+        max-width: 800px
+}
+    }
+
+.form-subscribe--input {
+        width: 80%;
+        border-radius: 10px;
+        background-color: #EFEFEF;
+        margin-bottom: 15px;
+        margin-top: 3px;
+        padding: 8px;
+        
+    }
+
+@media(min-width:1010px){
+
+.form-subscribe--input {
+            width: 60%
+        
+    }
+    }
+
+.form-subscribe--input-description {
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+@media(min-width:1010px){
+
+.form-subscribe--input-description {
+            width: 60%
+        
+    }
+    }
+
+.form-subscribe--checkbox {
+        margin-bottom: 15px;
+        margin-top: 3px;
+        height: 20px;
+        width: 20px;
+    }

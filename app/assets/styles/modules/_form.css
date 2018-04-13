@@ -1,0 +1,49 @@
+.form-subscribe {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+    
+    @mixin atLarge {
+        max-width: 800px;
+    }
+    
+    &--input {
+        width: 80%;
+        border-radius: 10px;
+        background-color: #EFEFEF;
+        margin-bottom: 15px;
+        margin-top: 3px;
+        padding: 8px;
+        
+        
+        @mixin atLarge {
+            width: 60%;
+            
+        }
+        
+    }
+    
+    &--input-description {
+        width: 80%;
+        margin: 0 auto;
+        
+        @mixin atLarge {
+            width: 60%;
+        }
+        
+    }
+    
+    &--checkbox {
+        margin-bottom: 15px;
+        margin-top: 3px;
+        height: 20px;
+        width: 20px;
+    }
+}
