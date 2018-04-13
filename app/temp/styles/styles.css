@@ -462,6 +462,11 @@ a {
             opacity: .7;
         }
 
+.btn--centered {
+        text-align: center;
+        margin: 0;
+    }
+
 .btn--large{
         padding: 1.1rem 1.9rem;
     }
@@ -624,8 +629,19 @@ a {
     }
     }
 
+.headline--smallest {
+        font-size: 1rem;
+    }
+
+@media(min-width:530px){
+
+.headline--smallest {
+            font-size: 1.4rem
+    }
+    }
+
 .headline--narrow {
-        max-width: 700px;
+        max-width: 900px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -726,6 +742,16 @@ a {
 @media(min-width:1010px){
         .row__b-margin-until-large {
             margin-bottom: 0;
+        }
+        
+        .row__large-2 {
+            float: left;
+            width: 16.66%;
+        }
+        
+        .row__large-3 {
+            float: left;
+            width: 25%;
         }
         
         .row__large-4 {
